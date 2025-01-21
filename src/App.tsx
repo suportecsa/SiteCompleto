@@ -58,10 +58,10 @@ function App() {
         </div>
         <div className="relative text-center text-white px-4">
           <h1 className="text-5xl md:text-7xl font-light mb-6 animate-fade-in">
-            LUXE GEMS
+            Renascer Acessórios
           </h1>
           <p className="text-xl md:text-2xl font-light mb-8 animate-fade-in delay-200">
-            Timeless Elegance, Exceptional Craftsmanship
+            Tempos de Elegância, Sempre.
           </p>
           <a href="#collections" className="inline-block animate-bounce mt-8">
             <ChevronDown size={32} />
@@ -72,7 +72,7 @@ function App() {
       {/* Collections Section */}
       <section id="collections" className="py-20 px-4 md:px-8">
         <h2 className="text-3xl md:text-4xl text-center mb-16 font-light">
-          Our Collections
+          Nossa Coleção
         </h2>
         <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {collections.map((collection, index) => (
@@ -103,7 +103,7 @@ function App() {
       {/* Testimonials Section */}
       <section className="py-20 bg-white overflow-hidden">
         <h2 className="text-3xl md:text-4xl text-center mb-16 font-light">
-          Client Testimonials
+          Testemunhos
         </h2>
         <div className="relative">
           <div
@@ -159,23 +159,20 @@ function App() {
             </div>
             <div className="animate-on-scroll opacity-0 delay-200">
               <h2 className="text-3xl md:text-4xl mb-6 font-light">
-                The Crown Jewel
+                Quem somos nós
               </h2>
               <p className="text-neutral-600 mb-6 leading-relaxed">
-                Our signature piece embodies the pinnacle of jewelry
-                craftsmanship. Each diamond is carefully selected and set by
-                master artisans, creating a masterpiece that captures light and
-                attention from every angle.
+                Marca Renomada .....
               </p>
               <div className="flex gap-4">
                 <span className="inline-block px-4 py-2 border border-neutral-300 rounded-full text-sm">
-                  18K Gold
+                  Contato
                 </span>
                 <span className="inline-block px-4 py-2 border border-neutral-300 rounded-full text-sm">
-                  VVS Diamonds
+                  Comprar
                 </span>
                 <span className="inline-block px-4 py-2 border border-neutral-300 rounded-full text-sm">
-                  Handcrafted
+                  Garantia
                 </span>
               </div>
             </div>
@@ -188,23 +185,21 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl mb-4 font-light">LUXE GEMS</h3>
-              <p className="text-neutral-400">
-                Crafting timeless pieces that celebrate life's precious moments.
-              </p>
+              <h3 className="text-xl mb-4 font-light">Renascer Acessórios</h3>
+              <p className="text-neutral-400">Tudo o que precisa está aqui.</p>
             </div>
             <div>
               <h3 className="text-xl mb-4 font-light">Visit Us</h3>
               <p className="text-neutral-400">
                 123 Luxury Lane
                 <br />
-                New York, NY 10001
+                Endereço
                 <br />
-                (555) 123-4567
+                (000) 123-4567
               </p>
             </div>
             <div>
-              <h3 className="text-xl mb-4 font-light">Connect</h3>
+              <h3 className="text-xl mb-4 font-light">Contatar</h3>
               <div className="flex gap-4">
                 <Instagram className="hover:text-neutral-300 cursor-pointer transition-colors" />
                 <Facebook className="hover:text-neutral-300 cursor-pointer transition-colors" />
@@ -213,7 +208,9 @@ function App() {
             </div>
           </div>
           <div className="border-t border-neutral-800 mt-8 pt-8 text-center text-neutral-400">
-            <p>&copy; 2024 LUXE GEMS. All rights reserved.</p>
+            <p>
+              &copy; 2025 Renascer Acessórios. Todos os Direitos Reservados.
+            </p>
           </div>
         </div>
       </footer>
@@ -226,98 +223,67 @@ const collections = [
     title: "Diamond Collection",
     description: "Brilliant diamonds set in timeless designs",
     image:
-      "https://images.unsplash.com/photo-1586878341523-7503d575f8cf?auto=format&fit=crop&q=80",
+      "https://plus.unsplash.com/premium_photo-1709033404514-c3953af680b4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     icon: Diamond,
   },
   {
     title: "Luxury Timepieces",
     description: "Precision crafted watches for the discerning collector",
     image:
-      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     icon: Watch,
   },
   {
     title: "Engagement Rings",
     description: "Celebrate your love with our exclusive ring collection",
     image:
-      "https://images.unsplash.com/photo-1590548784585-643d2b9f2925?auto=format&fit=crop&q=80",
+      "https://plus.unsplash.com/premium_photo-1674748385760-d846825598ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGpld2Vscnl8ZW58MHx8MHx8fDA%3D",
     icon: Ring,
   },
   {
     title: "Royal Collection",
     description: "Exquisite pieces fit for royalty",
     image:
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80",
-    icon: Crown,
-  },
-  {
-    title: "Diamond Necklaces",
-    description: "Stunning necklaces for every occasion",
-    image:
-      "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&q=80",
-    icon: Diamond,
-  },
-  {
-    title: "Vintage Timepieces",
-    description: "Classic watches with timeless appeal",
-    image:
-      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=crop&q=80",
-    icon: Watch,
-  },
-  {
-    title: "Wedding Bands",
-    description: "Symbols of eternal love",
-    image:
-      "https://images.unsplash.com/photo-1595781572981-d63151b232ed?auto=format&fit=crop&q=80",
-    icon: Ring,
-  },
-  {
-    title: "Signature Pieces",
-    description: "One-of-a-kind masterpieces",
-    image:
-      "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?auto=format&fit=crop&q=80",
-    icon: Crown,
-  },
-  {
-    title: "Modern Collection",
-    description: "Contemporary designs for the modern elite",
-    image:
-      "https://images.unsplash.com/photo-1603561596112-0a132b757442?auto=format&fit=crop&q=80",
-    icon: Diamond,
-  },
-  {
-    title: "Limited Edition",
-    description: "Exclusive pieces for collectors",
-    image:
-      "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGpld2Vscnl8ZW58MHx8MHx8fDA%3D",
     icon: Crown,
   },
 ];
 
 const testimonials = [
   {
-    quote:
-      "The craftsmanship of my engagement ring is absolutely stunning. Every detail is perfect, and it catches the light beautifully.",
-    name: "Sarah Mitchell",
-    title: "Satisfied Client",
+    quote: "Adicionar Descrição",
+    name: "Nome Adicionar",
+    title: "Satisfação do Cliente",
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
   },
   {
-    quote:
-      "Their vintage timepiece collection is unmatched. I found a rare piece that I've been searching for years.",
-    name: "James Wilson",
-    title: "Watch Collector",
+    quote: "Adicionar Descrição",
+    name: "Nome Adicionar",
+    title: "Satisfação do Cliente",
     image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
   },
   {
-    quote:
-      "The personal service and attention to detail made choosing our wedding bands a memorable experience.",
-    name: "Emily & David Thompson",
-    title: "Newlyweds",
+    quote: "Adicionar Descrição",
+    name: "Nome Adicionar",
+    title: "Satisfação do Cliente",
     image:
-      "https://images.unsplash.com/photo-1623091411395-09e79fdbfcf3?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
+  },
+  {
+    quote: "Adicionar Descrição",
+    name: "Nome Adicionar",
+    title: "Satisfação do Cliente",
+    image:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
+  },
+  {
+    quote: "Adicionar Descrição",
+    name: "Nome Adicionar",
+    title: "Satisfação do Cliente",
+    image:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
   },
 ];
 
